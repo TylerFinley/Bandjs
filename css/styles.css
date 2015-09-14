@@ -1,0 +1,12 @@
+#show-band {
+  display: none;
+}
+
+.band {
+  cursor: pointer;
+  color: #FF66FF;
+}
+
+.band:hover {
+  test-decoration: underline;
+}

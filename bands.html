@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>I'm with the band</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Bands!!!!</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <h3>Add a band:</h3>
+        <form id="new-band">
+          <div class="form-group">
+            <label for="new-band-name">Band name:</label>
+            <input type="text" class="form-control" id="new-band-name">
+          </div>
+          <div class="form-group">
+            <label for="band-hometown"> Hometown:</label>
+            <input type="text" class="form-control" id="band-hometown">
+          </div>
+          <div class="form-group">
+            <label for="band-genre"> Genre:</label>
+            <input type="text" class="form-control" id="band-genre">
+          </div>
+          <div class="form-group">
+            <label for="band-manager"> Manager:</label>
+            <input type="text" class="form-control" id="band-manager">
+          </div>
+
+
+
+          <div id="new-band-members">
+            <div class="new-band-member">
+
+              <div class="form-group">
+                <label for="member">Member name:</label>
+                <input type="text" class="form-control member">
+              </div>
+              <div class="form-group">
+                <label for="talent"> Talent:</label>
+                <input type="text" class="form-control talent">
+              </div>
+            </div>
+          </div>
+
+
+              <span class="btn btn-danger" id="add-member">Add another Member</span>
+
+              <button type="submit" class="btn">Add!!!!</button>
+
+            </form>
+
+            <h2>Bands:</h2>
+            <ul id="bands">
+
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <div id="show-band">
+
+            <p>Band name: <span class="new-band-name"></span></p>
+            <p>hometown: <span class="hometown"></span></p>
+            <p>genre: <span class="genre"></span></p>
+            <p>manager: <span class="manager"></span></p>
+            <p>Members:</p>
+            <ul id="members">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
